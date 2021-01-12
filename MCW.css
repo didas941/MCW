@@ -1,0 +1,32 @@
+/* MCW.css */
+
+body { font-family: 'Merriweather', serif; 
+        font-size: 2.5em;
+        background-image: url("custom123.jpg");
+        background-position: center;        
+}
+
+div.info { 
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+  li { 
+    margin-bottom: 50px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.img {
+width: 45%;
+margin-right: 5px;
+
+}
+
+img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+
