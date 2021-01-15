@@ -2,8 +2,14 @@
 
 body { font-family: 'Merriweather', serif; 
         font-size: 2.5em;
-        background-image: url("custom123.jpg");
-        background-position: center;        
+        background-image: url("Custom321.jpg");
+        
+}
+
+header {
+  color: rgba(133, 0, 0, 0.842);
+  margin-left: 200px;
+
 }
 
 div.info { 
@@ -11,12 +17,14 @@ div.info {
     font-weight: 500;
     margin-bottom: 15px;
     width: 100%;
+    color:rgb(133, 0, 0, 0.842);
 }
 
   li { 
     margin-bottom: 50px;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 div.img {
@@ -30,3 +38,6 @@ img {
   max-width: 100%;
 }
 
+div.vid{
+text-align: center;
+}
